@@ -68,7 +68,7 @@ Begin
     End;
 End;
 
-Procedure BrandBound(i: Integer);
+Procedure BranchBound(i: Integer);
 Var
   j: Integer;
 Begin
@@ -84,7 +84,7 @@ Begin
         If i = n Then
           Update
         Else
-          BrandBound(i+1);
+          BranchBound(i+1);
 				// Go back
         avail[j] := True;
         sum := sum - graph[x[i-1], j];
@@ -93,7 +93,7 @@ End;
 Begin
   Clrscr;
   ReadFile;
-  BrandBound(2);
+  BranchBound(2);
   PrintResult;
   Readln;
 End.
