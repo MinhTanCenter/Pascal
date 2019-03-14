@@ -1,0 +1,27 @@
+uses crt;
+const
+  maxn = 100000000;
+var
+  n, k: longint;
+  f: array[1..maxn] of longint;
+
+procedure QHD;
+var
+  i: longint;
+begin
+  f[1] := 1;
+  for i := 2 to n do
+    f[i] := (f[i - 1] + k - 1) mod n + 1;
+end;
+
+
+begin
+  clrscr;
+  write('n = ');
+  readln(n);
+  write('k = ');
+  readln(k);
+  QHD;
+  writeln(f[n]);
+  readln;
+end.

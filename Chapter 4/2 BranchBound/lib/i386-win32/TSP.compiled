@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\FPC\3.0.4\bin\i386-Win32\fpc.exe" Date="1262918680"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FuD:\GitHub\Pascal\Chapter 4\2 BranchBound\&quot; &quot;-FUD:\GitHub\Pascal\Chapter 4\2 BranchBound\lib\i386-win32\&quot; &quot;-FED:\GitHub\Pascal\Chapter 4\2 BranchBound\&quot; &quot;-oD:\GitHub\Pascal\Chapter 4\2 BranchBound\TSP.exe&quot; TSP.pas"/>
+</CONFIG>
